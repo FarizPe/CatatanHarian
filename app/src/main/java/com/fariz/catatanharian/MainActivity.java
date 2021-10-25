@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case R.id.action_tambah:
+            case R.id.item_add:
                 Intent intent = new Intent(this, InsertAndViewActivity.class);
                 startActivity(intent);
                 break;
